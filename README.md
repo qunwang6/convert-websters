@@ -19,6 +19,15 @@ of [Webster's Unabridged Dictionary][gutenbergWebsters] from Project
 Gutenberg and wrote this script to convert it to the XML that Apple's
 Dictionary Development Kit takes as input.
 
+## If you just want the results
+
+If you don't care to run the script yourself and just want the finished
+dictionary, you can download an [installer package][installerPackage]
+that will put the finished dictionary in ~/Library/Dictionaries for you.
+
+If you'd prefer to view the dictionary as a [static web site][staticSite]
+you can do that too.
+
 ## Prerequisites
 
 You'll need a copy of the [Gutenberg document][gutenbergWebsters] and Apple's
@@ -41,3 +50,5 @@ Development Kit project at ../ddk_project, this should do the trick:
 [jsomersDictionary]: http://jsomers.net/blog/dictionary
 [gutenbergWebsters]: http://www.gutenberg.org/ebooks/29765
 [developerDownloads]: https://developer.apple.com/downloads/index.action
+[installerPackage]:http://dictionary.parksdigital.com/Webster%27s%20Unabridged%20Dictionary.pkg
+[staticSite]:http://dictionary.parksdigital.com/

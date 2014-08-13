@@ -48,10 +48,10 @@ Development Kit project at ../ddk_project, this should do the trick:
     ./convert-dsm.pl > ../ddk_project/WebstersUnabridged.xml
     
 ###补充
-LC_ALL="C" tr -d "\r" < 29765.txt | tail -n +27 | head -n 973878 | perl convert-dsm.pl > WebstersUnabridged.xml
-下载的txt文件要另存为utf-8再编译
-出现`tr: Illegal byte sequence`
-用LC_CTYPE=C or LC_ALL="C" 
+LC_ALL="C" tr -d "\r" < 29765.txt | tail -n +27 | head -n 973878 | perl convert-dsm.pl > WebstersUnabridged.xml     
+下载的txt文件要另存为utf-8再编译       
+出现`tr: Illegal byte sequence`    
+用LC_CTYPE=C or LC_ALL="C"         
 
 [jsomersDictionary]: http://jsomers.net/blog/dictionary
 [gutenbergWebsters]: http://www.gutenberg.org/ebooks/29765
